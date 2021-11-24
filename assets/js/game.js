@@ -89,12 +89,36 @@ var startGame = function() {
         } else {
             window.alert("You have lost your robot in battle! Game Over!");
             break;
-        }   
+        }  
     }
-    // play again
+        // after the loop ends, player is either out of health or enemies to fight, so run the endGame function 
+    endGame();
+    // play again - I don't think this is needed...
     startGame();
+
+}
+
+var endGame = function() {
+    window.alert("The game has now ended. Let's ee how you did!");
+    // if player is still alive, player wins!
+    if (playerHealth > 0) {
+        window.alert("Great job, you've survived the game! You now have a score of " + playerMoney + ".");
+    }
+    else {
+        window.alert("You've lost your robot in battle.");
+    }
+
+    var playAgainConfirm = window.confirm("Would you like to play again?");
+
+    if (playAgainConfirm) {
+        startGame();
+    }
+    else {
+        window.alert("Thank you for playing Robot Gladiators! Come back again soon!");
+    }
 }
 
 startGame();
 
-// midway thru 3.3.3
+
+// 
