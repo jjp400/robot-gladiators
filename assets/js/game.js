@@ -261,8 +261,13 @@ var enemyInfo = [
     }
 ];
 
-
-// finished 3.4.3--ready for 3.4.4
-
-// switch statements
 startGame();
+
+// All done!
+// Some improvements I would make:
+    // go through and comment on the code
+    // test it more
+    // Features
+        // Alert who the person is fighting before they fight
+        // Alert whose turn it is before they go and then alert with how much they attack with--in addition to remaining health
+        
