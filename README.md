@@ -1,4 +1,9 @@
 # Robot Gladiators
+A browser-based combat simulator game
+
+## Built With
+* HTML
+* JavaScript
 
 ## What I Learned
 * Identifying and declaring variables containing primitive and object data types in JavaScript
