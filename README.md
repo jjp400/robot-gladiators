@@ -5,7 +5,6 @@ A browser-based combat simulator game
 Go to the URL, create your robot, and "fight" computer robots in window alerts and prompts!
 
 ## Built With
-* HTML
 * JavaScript
 
 ## Website
